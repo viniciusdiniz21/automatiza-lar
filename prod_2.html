@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutomatizaLar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                <img src="logoheader.png" width="112" height="28">
+              </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <!--Dropdown de itens-->
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" href="index.html">
+                    Produtos
+                  </a>
+          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" href="prod_1.html">
+                      Lâmpada Inteligente
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="prod_2.html">
+                      Interruptor Inteligente
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="prod_3.html">
+                      Kit Casa Conectada
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="prod_4.html">
+                      Fechadura Digital
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--Serviços-->
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button" href="servicos.html" id="serv">Serviços</a>
+                </div>
+              </div>
+              <!--Barra de pesquisa-->
+              <p>
+                <input class="input is-info" type="text" placeholder="Procurar" id="search">
+              </p>
+
+              <!--Area de registro-->
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-info" href="Cadastro.html"><strong>Cadastre-se</strong></a>
+                    <a class="button is-light" href="Login.html">Entrar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <br>
+    <br>
+
+      <!--Produto-->
+      <div class="columns">
+        <div class="column is-one-third">
+          <figure class="image is-256x256">
+            <img class="item" src="sonnof.jpg">
+          </figure>
+          
+          <p class="stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span ><span class="star">&#9733;</span><span class="star">&#9733;</span></p>
+        </div>
+        <!--Lojas-->
+        <div class="column">
+          <p class="textbuy">Kabum</p>
+          <div class="buy"><a class="button is-success is-light" href="https://www.kabum.com.br/produto/107961/interruptor-kabum-smart-bivolt-3-botoes-branco-15a-50-60hz-smart-home?gclid=Cj0KCQjw5oiMBhDtARIsAJi0qk2s0FOit5hyPzNP_-q5HG8_liAt5wAkH2oHZvyYW9Jx-LQHIOgdNGoaAjU-EALw_wcB" target="_blank">R$ 109,90</a></div>
+          <br>
+          <br>
+          <p class="textbuy">Amazon</p>
+          <div class="buy"><a class="button is-warning is-light" href="https://www.amazon.com.br/Sonoff-Interruptor-Inteligente-TX-T0US3C-Funciona/dp/B0849LM5TN/ref=asc_df_B0849LM5TN/?tag=googleshopp00-20&linkCode=df0&hvadid=405714095442&hvpos=&hvnetw=g&hvrand=17168790907591897231&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001563&hvtargid=pla-882549362363&psc=1" target="_blank">R$ 115,36</a></div>
+          <br>
+          <br>
+          <p class="textbuy">Americanas</p>
+          <div class="buy"><a class="button is-danger is-light" href="https://www.americanas.com.br/produto/2625805933?opn=YSMESP&tamanho=2%20Botões&cor=White" target="_blank">R$ 140,57</a></div>
+        </div>
+        <!--Descrição-->
+        <div class="column" id="desc">
+            <p><strong>Sonoff TX0 Interruptor Inteligente Wifi, 3 Botões, Touch Screen, TX-T0US3C, Funciona com Alexa</strong></p>
+
+            <p>Características: •Controle por aplicativo grátis "Ewelink" remotamente através de seu Smartphone ou Tablet.</p>
+
+            <p>•Este produto pode ser controlado por voz usando um Dispositivo Echo ou outro produto que possua Alexa Integrada.</p>
+
+            <p>•Interruptor Inteligente Touch.</p>
+
+            <p>•Programe Cronômetros de Contagem Regressiva, Programe para ligar e desligar como preferir, na hora e o dia que preferir.</p>
+
+            <p>•Touch screen</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

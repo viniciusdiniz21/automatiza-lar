@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutomatizaLar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                <img src="logoheader.png" width="112" height="28">
+              </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <!--Dropdown de itens-->
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" href="index.html">
+                    Produtos
+                  </a>
+          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" href="prod_1.html">
+                      Lâmpada Inteligente
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="prod_2.html">
+                      Interruptor Inteligente
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="prod_3.html">
+                      Kit Casa Conectada
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" href="prod_4.html">
+                      Fechadura Digital
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--Serviços-->
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button" href="servicos.html" id="serv">Serviços</a>
+                </div>
+              </div>
+              <!--Barra de pesquisa-->
+              <p>
+                <input class="input is-info" type="text" placeholder="Procurar" id="search">
+              </p>
+
+              <!--Area de registro-->
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-info" href="Cadastro.html"><strong>Cadastre-se</strong></a>
+                    <a class="button is-light" href="Login.html">Entrar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <p class="title is-2">Confira os serviços</p>
+    <br>
+    <!--Colunas dos itens-->
+    <div class="columns">
+        <div class="column">
+            <!--Imagem do produto-->
+            <figure class="image is-128x128">
+                <a href="https://www.playsolutions.com.br/?gclid=CjwKCAjwiY6MBhBqEiwARFSCPiun7aJIEY1oLtgSffGz83tdRtfVxZLfnd2i6XbiYxwMu9K_DONqAxoC6qIQAvD_BwE"><img class="item" src="play.jpg" id="imgemp"></a>
+            </figure>
+            <br>
+            <br>
+            <!--Descrição do produto-->
+            <a href="https://www.playsolutions.com.br/contato/" id="emp"><strong>Contato</strong></a>
+            <p>Descrição</p>
+            <p>Uma empresa de Uberlândia que faz projetos de automação residencial</p>
+            <p>Endereço: Rua Ipanema, 1231</p>
+            <p>Bairro Morada da Colina</p>
+            <p>Uberlândia, MG - CEP: 38.411-157</p>
+            <p>(34) 3214-9054</p>
+            <p>contato@playsolutions.com.br</p>
+            <br>
+          
+        </div>
+        <div id="linha-vertical"></div>
+        <div class="column">
+            <!--Imagem do produto-->
+            <figure class="image is-128x128">
+              <a href="https://www.tecai.com.br"><img class="item" src="tecai.jpg" id="imgemp"></a>
+            </figure>
+            <br>
+            <br>
+            <!--Descrição do produto-->
+            <a href="https://www.tecai.com.br/contato" id="emp"><strong>Contato</strong></a>
+            <p>Descrição</p>
+            <p>Empresa de Belo Horizonte que faz a venda e/ou integração de produtos de automação residencial ou industrial</p>
+            <p>Endereço: Avenida Álvares Cabral, 975</p>
+            <p>Lourdes</p>
+            <p>Belo Horizonte, MG - CEP: 30.170-002</p>
+            <p>(31) 3141-1000</p>
+            <br>
+        </div>
+        <div id="linha-vertical"></div>
+        
+        
+      </div>
+      <!--Rodapé-->
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <span>Precisa de ajuda? Envie uma mensagem para o número (34) 9 9999-8888</span>
+            <br>
+            <span>Ou envie um e-mail para suporte@automatizalar.com</span>
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
