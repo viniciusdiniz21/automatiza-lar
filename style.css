@@ -107,7 +107,9 @@ header{
 }
 
 #serv{
-	margin-right: 300px;
+	padding: 0px;
+	text-align: left;
+	
 }
 
 .star{
